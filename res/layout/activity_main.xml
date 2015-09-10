@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.soudwaveview.SoundWaveView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#0000ff"
+        app:frameTime="80"
+        app:location="bottom"
+        app:maxSpeed="7"
+        app:minSpeed="1"
+        app:space="1dp"
+        app:startUpNow="true"
+        app:sumWaves="20"
+        app:color="#ff0000" />
+
+    <FrameLayout 
+        android:layout_height="20dp"
+        android:layout_width="fill_parent">
+    </FrameLayout>
+
+    <com.example.soudwaveview.SoundWaveView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#0000ff"
+        app:frameTime="80"
+        app:location="top"
+        app:maxSpeed="8"
+        app:minSpeed="2"
+        app:space="5dp"
+        app:startUpNow="true"
+        app:sumWaves="5"
+        app:color="#00ff00" />
+
+    <FrameLayout 
+        android:layout_height="20dp"
+        android:layout_width="fill_parent">
+    </FrameLayout>
+
+    <com.example.soudwaveview.SoundWaveView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="#0000ff"
+        app:frameTime="100"
+        app:location="right"
+        app:maxSpeed="10"
+        app:minSpeed="5"
+        app:space="1dp"
+        app:startUpNow="true"
+        app:sumWaves="20"
+        app:waveHeight="100dp"
+        app:color="#ccbb00" />
+
+    <FrameLayout 
+        android:layout_height="20dp"
+        android:layout_width="fill_parent">
+    </FrameLayout>
+
+    <com.example.soudwaveview.SoundWaveView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="#0000ff"
+        app:frameTime="80"
+        app:location="left"
+        app:maxSpeed="14"
+        app:minSpeed="7"
+        app:space="1dp"
+        app:startUpNow="true"
+        app:sumWaves="20"
+        app:color="#aaaa00" />
+
+</LinearLayout>

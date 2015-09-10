@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- 音波的属性-->
+	<declare-styleable name="SoundWaveView">
+	    <attr name="color" format="color"/>
+	    <attr name="sumWaves" format="integer"/>
+	    <attr name="minSpeed" format="integer"/>
+	    <attr name="maxSpeed" format="integer"/>
+	    <attr name="space" format="dimension"/>
+	    <attr name="waveHeight" format="dimension"/>
+	    <attr name="frameTime" format="integer"/>
+	     <attr name="location" format="enum ">
+	         <enum name="bottom" value="0"/>
+	         <enum name="left" value="90"/>
+             <enum name="top" value="180"/>
+            <enum name="right" value="270"/>
+	        </attr>
+	    <attr name="startUpNow" format="boolean"/><!-- 立即开启  -->
+	</declare-styleable>
+	
+</resources>
